@@ -1,0 +1,40 @@
+{
+  "name": "fulltoast",
+  "version": "0.1.0",
+  "description": "A polished toast notification library for React Native and Expo.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "react-native": "./src/index.ts",
+  "exports": {
+    ".": {
+      "react-native": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --external react --external react-native",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch --external react --external react-native",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.72"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "react": "^19.1.0",
+    "react-native": "^0.81.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.9.2"
+  },
+  "packageManager": "pnpm@9.15.0"
+}

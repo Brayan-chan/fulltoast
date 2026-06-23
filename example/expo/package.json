@@ -1,0 +1,21 @@
+{
+  "name": "fulltoast-expo-preview",
+  "private": true,
+  "version": "0.1.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo start --ios",
+    "android": "expo start --android",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~54.0.35",
+    "fulltoast": "file:../..",
+    "react": "19.1.0",
+    "react-native": "0.81.5"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.2"
+  }
+}

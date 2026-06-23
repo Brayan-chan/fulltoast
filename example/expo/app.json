@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "FullToast Preview",
+    "slug": "fulltoast-preview",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "assetBundlePatterns": ["**/*"]
+  }
+}
