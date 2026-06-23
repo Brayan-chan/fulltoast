@@ -7,11 +7,11 @@ It is designed for Expo Go first: no native modules, no required SVG package, an
 ## Installation
 
 ```bash
-pnpm add fulltoast
+pnpm add github:Brayan-chan/fulltoast
 ```
 
 ```bash
-bun add fulltoast
+bun add github:Brayan-chan/fulltoast
 ```
 
 FullToast expects `react` and `react-native` from your app.
